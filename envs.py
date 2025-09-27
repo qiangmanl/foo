@@ -13,4 +13,4 @@ GRAFANA_API_URL = os.getenv("GRAFANA_API_URL")
 
 METRICS_NAME = "client_traffic_bytes"
 
-METRICS_EXPR_PREF =  f'{METRICS_NAME}{{ip="%s",port="%s"}})'
+METRICS_EXPR_PREF =  f'{METRICS_NAME}{{ip="%s",port="%s"}}'
